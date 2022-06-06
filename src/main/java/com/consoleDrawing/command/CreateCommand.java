@@ -12,7 +12,6 @@ public class CreateCommand implements Command {
       throw new InvalidParamsException("Create Command expects 2 paramaters only");
     }
     try {
-      // add checking for negative interger
       width = Integer.parseInt(params[0]);
       height = Integer.parseInt(params[1]);
       if (width < 0 || height < 0) {

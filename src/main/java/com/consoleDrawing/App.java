@@ -79,7 +79,7 @@ public class App {
 
     private static void quit() {
         scanner.close();
-        System.out.println("Exiting...");
+        System.out.println("Exiting....");
         System.exit(0);
     }
 

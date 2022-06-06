@@ -8,7 +8,6 @@ the program should work as follows:
  2. Start drawing on the canvas by issuing various commands
  3. Quit
 
-
 | Command       | Description   |
 | ------------- |:-------------:|
 | C w h       | Should create a new canvas of width w and height h. |
@@ -37,8 +36,6 @@ Run Jar
 ```
 java -jar target/consoleDrawing-1.0.jar
 ```
-
-
 
 ## Sample I/O
 
