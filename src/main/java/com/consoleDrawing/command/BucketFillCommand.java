@@ -31,26 +31,12 @@ public class BucketFillCommand extends DrawEntityCommand {
     return x;
   }
 
-  public BucketFillCommand setX(int x) {
-    this.x = x;
-    return this;
-  }
-
   public int getY() {
     return y;
-  }
-
-  public BucketFillCommand setY(int y) {
-    this.y = y;
-    return this;
   }
 
   public char getCharacter() {
     return character;
   }
 
-  public BucketFillCommand setCharacter(char character) {
-    this.character = character;
-    return this;
-  }
 }

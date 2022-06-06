@@ -108,9 +108,11 @@ public class Canvas {
   }
 
   private void fill(int x, int y, char ch) {
+    // prevent out of range
     if (x < 0 || x >= width || y < 0 || y >= height) {
       return;
     }
+    // Base case
     if (canvasArray[y][x] == LINE_CHAR || canvasArray[y][x] == ch) {
       return;
     }

@@ -27,17 +27,7 @@ public class CreateCommand implements Command {
     return height;
   }
 
-  public CreateCommand setHeight(int height) {
-    this.height = height;
-    return this;
-  }
-
   public int getWidth() {
     return width;
-  }
-
-  public CreateCommand setWidth(int width) {
-    this.width = width;
-    return this;
   }
 }
